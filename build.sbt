@@ -8,7 +8,11 @@ val sparkDependencies =Seq(
   "org.apache.spark" %% "spark-core" % sparkVersion,
   "org.apache.spark" %% "spark-sql" % sparkVersion,
   // https://mvnrepository.com/artifact/org.apache.spark/spark-streaming
-  "org.apache.spark" %% "spark-streaming" % sparkVersion % "provided"
+  "org.apache.spark" %% "spark-streaming" % sparkVersion % "provided",
+  "org.apache.spark" %% "spark-sql-kafka-0-10" % sparkVersion
+
+
+
 
 
 )
